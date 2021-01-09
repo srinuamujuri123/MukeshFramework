@@ -5,7 +5,6 @@ import org.testng.annotations.Test;
 
 import com.learnautomation.pages.BaseClass;
 import com.learnautomation.pages.LoginPage;
-import com.learnautomation.utility.Helper;
 
 public class Testcase1 extends BaseClass {
 
