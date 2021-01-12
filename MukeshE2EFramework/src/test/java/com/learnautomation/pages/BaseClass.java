@@ -56,7 +56,6 @@ public class BaseClass {
 	@AfterClass
 	public void teardown()  {
 		Reporter.log("browser is getting ready to quit", true);
-		
 		BrowserFactory.quitBrowser(driver);
 		Reporter.log("browser quited successfully and test completed", true);
 	}
