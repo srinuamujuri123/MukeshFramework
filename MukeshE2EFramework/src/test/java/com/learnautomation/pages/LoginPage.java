@@ -12,11 +12,11 @@ public class LoginPage {
 		this.driver = ldriver;	
 	}
 
-	@FindBy(id = "user_email")
+	@FindBy(name = "email")
 	WebElement uname;
-	@FindBy(id = "userpassword")
+	@FindBy(name = "password")
 	WebElement pasword;
-	@FindBy(name = "commit")
+	@FindBy(xpath = "//div[text()='Login']")
 	WebElement login_button;
 
 	public void loginToCRM(String username, String password) {

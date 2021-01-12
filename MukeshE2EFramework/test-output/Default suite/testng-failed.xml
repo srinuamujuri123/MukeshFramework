@@ -6,8 +6,6 @@
       <class name="com.learnautomation.tesecases.Testcase1">
         <methods>
           <include name="setupSuite"/>
-          <include name="teardownMethod"/>
-          <include name="teardown"/>
           <include name="setup"/>
           <include name="loginTest"/>
         </methods>

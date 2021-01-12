@@ -19,10 +19,10 @@ public class Testcase1 extends BaseClass {
 		logger.pass("Login successfully");
 
 	}
-	@Test(priority = 2)
-	public void logoutTest() {
-		logger=report.createTest("Logout");
-		logger.fail("Logout failed purposefully");
-	}
+//	@Test(priority = 2)
+//	public void logoutTest() {
+//		logger=report.createTest("Logout");
+//		logger.fail("Logout failed purposefully");
+//	}
 
 }

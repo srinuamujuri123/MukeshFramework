@@ -50,11 +50,13 @@ public class BaseClass {
 		driver = BrowserFactory.startApplication(driver, config.getBrowser(), config.getURL());
 		System.out.println(driver.getTitle());
 		Reporter.log("browser and application is up and running", true);
+		
 	}
 
 	@AfterClass
-	public void teardown() {
+	public void teardown()  {
 		Reporter.log("browser is getting ready to quit", true);
+		
 		BrowserFactory.quitBrowser(driver);
 		Reporter.log("browser quited successfully and test completed", true);
 	}
